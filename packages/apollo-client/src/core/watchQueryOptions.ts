@@ -104,6 +104,8 @@ export interface ModifiableWatchQueryOptions<TVariables = OperationVariables>
    * be fully satisfied by the cache, instead of returning nothing.
    */
   returnPartialData?: boolean;
+
+  partialRefetch?: boolean;
 }
 
 /**
